@@ -111,6 +111,7 @@ dalvik.vm.heaptargetutilization=0.75
 ro.dalvik.vm.native.bridge=0
 
 # Display
+debug.hwui.use_buffer_age=false
 debug.sf.enable_hwc_vds=1
 debug.egl.hw=0
 debug.sf.hw=0

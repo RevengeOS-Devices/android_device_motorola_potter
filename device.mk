@@ -109,8 +109,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    libbson \
-    GoogleCameraMod \
+    libbson \ 
     Camera2 \
     libgui_vendor \
     camera.device@1.0-impl \

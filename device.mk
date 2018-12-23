@@ -109,7 +109,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    libbson \ 
+    libbson \
     Camera2 \
     libgui_vendor \
     camera.device@1.0-impl \
@@ -454,7 +454,8 @@ PRODUCT_COPY_FILES += \
 # TEMP FIX
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
-    android.hidl.manager@1.0
+    android.hidl.manager@1.0 \
+    android.hidl.manager@1.0-java
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 

@@ -303,6 +303,7 @@ on boot
 
 # msm specific files that need to be created on /data
 on post-fs-data
+    start ril-daemon
     mkdir /tombstones/modem 0771 system system
     mkdir /tombstones/lpass 0771 system system
     mkdir /tombstones/wcnss 0771 system system
@@ -541,6 +542,7 @@ service audiod /system/vendor/bin/audiod
 
 on property:vold.decrypt=trigger_restart_framework
     start config_bt_addr
+     
 
 on property:persist.env.fastdorm.enabled=true
     setprop persist.radio.data_no_toggle 1

@@ -21,6 +21,8 @@ $(call inherit-product, device/motorola/potter/full_potter.mk)
 # Inherit some common RevengeOS stuff.
 IS_PHONE := true
 TARGET_GAPPS_ARCH := arm64
+TARGET_MINIMAL_GAPPS := true
+REVENGEOS_BUILDTYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit some common RevengeOS stuff.

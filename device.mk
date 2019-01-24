@@ -187,7 +187,7 @@ PRODUCT_PACKAGES += \
 
 # FM
 PRODUCT_PACKAGES += \
-#    FMRadio \
+    FMRadio \
     libfmjni \
     init.qti.fm.sh
 

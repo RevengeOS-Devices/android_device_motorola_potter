@@ -560,9 +560,8 @@ service audiod /system/vendor/bin/audiod
 
 on property:vold.decrypt=trigger_restart_framework
     start config_bt_addr
-    stop vendor.camera-provider-2-4
-    start vendor.camera-provider-2-4
- 
+    restart vendor.camera-provider-2-4
+
 on property:persist.env.fastdorm.enabled=true
     setprop persist.radio.data_no_toggle 1
 

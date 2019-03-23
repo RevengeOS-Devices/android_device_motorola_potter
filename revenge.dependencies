@@ -16,5 +16,11 @@
     "repository"   : "packages_resources_MotoActions",
     "target_path"  : "packages/resources/MotoActions"
  
-  }
+},	
+{ 
+    "remote"       : "github",
+    "repository"   : "VRanger/dragontc",
+    "revision"     : "master",
+    "target_path"  : "prebuilts/clang/DragonTC-9.0"
+}
 ]

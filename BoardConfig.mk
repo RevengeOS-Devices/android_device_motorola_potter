@@ -84,7 +84,7 @@ TARGET_KERNEL_CONFIG := potter_defconfig
 TARGET_KERNEL_SOURCE := kernel/motorola/msm8953
 KERNEL_TOOLCHAIN := $(PWD)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-4.9/bin
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-androidkernel-
-# TARGET_USE_SDCLANG := true
+TARGET_USE_SDCLANG := true
 
 # Audio
 AUDIO_FEATURE_ENABLED_ALAC_OFFLOAD := true

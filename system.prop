@@ -21,7 +21,8 @@ av.offload.enable=false
 av.debug.disable.pers.cache=1
 persist.audio.endcall.delay=250
 qcom.hw.aac.encoder=false
-
+vendor.audio.use.dts_eagle=true
+use.dts_eagle=true
 persist.vendor.audio.calfile0=/vendor/etc/acdbdata/Bluetooth_cal.acdb
 persist.vendor.audio.calfile1=/vendor/etc/acdbdata/General_cal.acdb
 persist.vendor.audio.calfile2=/vendor/etc/acdbdata/Global_cal.acdb

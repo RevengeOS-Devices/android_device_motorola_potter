@@ -311,6 +311,10 @@ on boot
     # default country code
     setprop ro.boot.wificountrycode 00
 
+    # Set SQLite flags for F2FS because some DBs might be opened early
+    setprop debug.sqlite.journalmode OFF
+    setprop debug.sqlite.syncmode OFF
+
 # msm specific files that need to be created on /data
 on post-fs-data
     start ril-daemon

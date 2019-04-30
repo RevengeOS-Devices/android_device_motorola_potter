@@ -55,6 +55,16 @@ on late-fs
     start configstore-hal-1-0
     start gralloc-2-0
 
+    # boot time fs tune
+    write /sys/block/mmcblk0/queue/read_ahead_kb 2048
+    write /sys/block/mmcblk0/queue/nr_requests 256
+    write /sys/block/mmcblk0rpmb/queue/read_ahead_kb 2048
+    write /sys/block/mmcblk0rpmb/queue/nr_requests 256
+    write /sys/block/dm-0/queue/read_ahead_kb 2048 
+    write /sys/block/dm-1/queue/read_ahead_kb 2048
+    write /sys/block/mmcblk0/queue/iostats 0
+    write /sys/block/mmcblk0rpmb/queue/iostats 0
+
     # Wait for hwservicemanager ready since fsck might be triggered in mount_all --late
     # In such case, init won't responce the property_set from hwservicemanager and then
     # cause services for bootanim not running.

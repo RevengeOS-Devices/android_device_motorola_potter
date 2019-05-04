@@ -817,6 +817,11 @@ service vendor.loc_launcher /system/vendor/bin/loc_launcher
     group gps
     writepid /dev/cpuset/system-background/tasks
 
+service vendor.msm_irqbalance /vendor/bin/msm_irqbalance -f /system/vendor/etc/msm_irqbalance.conf
+    class core
+    user root
+    group root
+
 on property:vendor.hw.fm.init=0
     write /sys/module/radio_iris_transport/parameters/fmsmd_set 0
 

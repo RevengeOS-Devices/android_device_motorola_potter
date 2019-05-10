@@ -18,7 +18,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Title and summary -->
-    <string name="moto_actions_title">Moto Actions</string>
+    <string name="moto_actions_title">Moto Settings</string>
 
     <!-- Label for feature switch [CHAR LIMIT=30] -->
     <string name="switch_bar_on">On</string>
@@ -27,20 +27,20 @@
     <string name="switch_bar_off">Off</string>
 
     <!-- Camera gesture -->
-    <string name="camera_gesture_title">Double-twist</string>
-    <string name="camera_gesture_summary">Open camera when using the double twist gesture</string>
+    <string name="camera_gesture_title">Double-Twist</string>
+    <string name="camera_gesture_summary">Open Camera when using the double twist gesture</string>
 
     <!-- Chop-chop gesture -->
-    <string name="chop_chop_gesture_title">Chop-chop</string>
-    <string name="chop_chop_gesture_summary">Toggle flashlight when using the chop-chop gesture</string>
+    <string name="chop_chop_gesture_title">Chop-Chop</string>
+    <string name="chop_chop_gesture_summary">Toggle Flashlight when using the Chop-Chop gesture</string>
 
     <!-- Hand wave silencer gesture -->
-    <string name="hand_wave_silencer_title">Wave to silence</string>
+    <string name="hand_wave_silencer_title">Wave to Silence</string>
     <string name="hand_wave_silencer_summary">Silence incoming calls by waving your hand across the screen</string>
 
     <!-- Hand wave gesture -->
-    <string name="hand_wave_gesture_title">Hand wave</string>
-    <string name="hand_wave_gesture_summary">Pulse notifications on hand wave</string>
+    <string name="hand_wave_gesture_title">Hand Wave</string>
+    <string name="hand_wave_gesture_summary">Pulse Notifications on hand wave</string>
 
     <!-- Flip to mute gesture -->
     <string name="flip_to_mute_title">Flip for Do Not Disturb</string>
@@ -52,7 +52,7 @@
 
     <!-- Pick-up gesture -->
     <string name="pick_up_gesture_title">Pick-up</string>
-    <string name="pick_up_gesture_summary">Pulse notifications on pick-up</string>
+    <string name="pick_up_gesture_summary">Pulse Notifications on pick-up</string>
 
     <!-- Device gestures panel -->
     <string name="screen_gestures_panel_title">Gestures</string>
@@ -62,12 +62,12 @@
     <string name="device_gestures_summary">Manage device gestures</string>
 
     <!-- Ambient display gestures -->
-    <string name="ambient_display_title">Ambient display</string>
-    <string name="ambient_display_manage_summary">Manage ambient display gestures</string>
+    <string name="ambient_display_title">Ambient Display</string>
+    <string name="ambient_display_manage_summary">Manage Ambient Display gestures</string>
 
     <!-- Fingerprint gestures -->
     <string name="fingerprint_gestures_title">Fingerprint gestures</string>
-    <string name="fingerprint_gestures_summary">Use fingerprint gestures</string>
+    <string name="fingerprint_gestures_summary">Use Fingerprint gestures</string>
     <string name="fingerprint_gestures_manage_summary">Manage fingerprint gestures</string>
     <string name="fingerprint_actions_screenon">Actions with screen on</string>
     <string name="fingerprint_tap_title">Single tap</string>
@@ -83,7 +83,7 @@
 
     <!-- Fingerprint gestures screen off -->
     <string name="fingerprint_gestures_screenoff_title">Fingerprint gestures when screen off</string>
-    <string name="fingerprint_gestures_screenoff_summary">Use fingerprint gestures when screen off.\n\nFingerprint unlocking must be disabled to use this feature.</string>
+    <string name="fingerprint_gestures_screenoff_summary">Use Fingerprint gestures when screen off.\n\nFingerprint unlocking must be disabled to use this feature.</string>
     <string name="fingerprint_actions_screenoff">Actions with screen off</string>
 
     <!-- Actions -->
@@ -101,12 +101,12 @@
     <string name="action_previous_track">Previous track</string>
     <string name="action_next_track">Next track</string>
     <string name="action_flashlight">Flashlight on/off</string>
-    <string name="action_camera">Open camera</string>
-    <string name="action_screenshot">Take screenshot</string>
-    <string name="action_browser">Open browser</string>
-    <string name="action_dialer">Open dialer</string>
-    <string name="action_email">Open email app</string>
-    <string name="action_messages">Open messages app</string>
+    <string name="action_camera">Launch Camera</string>
+    <string name="action_screenshot">Take a Screenshot</string>
+    <string name="action_browser">Launch Browser</string>
+    <string name="action_dialer">Launch Dialer</string>
+    <string name="action_email">Launch Email App</string>
+    <string name="action_messages">Launch Messages App</string>
 
     <!-- Screen off gestures -->
     <string name="screen_off_gestures_title">Screen off gestures</string>
@@ -122,7 +122,7 @@
 
     <!-- Double tap to wake -->
     <string name="tap_to_wake">Tap to wake</string>
-    <string name="tap_to_wake_summary">Double-tap anywhere on the screen to wake device</string>
+    <string name="tap_to_wake_summary">Double Tap anywhere on the screen to wake device</string>
 
     <!-- Screen off gestures haptic feedback -->
     <string name="haptic_feedback">Haptic feedback</string>

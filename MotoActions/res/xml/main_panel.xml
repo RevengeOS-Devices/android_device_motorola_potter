@@ -58,4 +58,17 @@
                 android:targetClass="com.moto.actions.ScreenOffGestureSettingsActivity" />
     </Preference>
 
+    <PreferenceCategory
+        android:title="@string/diracheader">
+        <Preference
+        android:key="dirac"
+        android:title="@string/dirac_title"
+        android:summary="@string/dirac_summary"
+        android:icon="@drawable/ic_settings_dirac"
+        android:persistent="false" >
+           <intent 
+                android:targetPackage="com.moto.actions"
+                android:targetClass="com.moto.actions.dirac.DiracActivity" />
+        </Preference>
+    </PreferenceCategory>
 </PreferenceScreen>

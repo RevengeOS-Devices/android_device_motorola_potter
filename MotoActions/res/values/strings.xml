@@ -13,10 +13,17 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-        <!-- Dirac settings -->
-    <string name="dirac_title">Dirac sound enhancer</string>
-    <string name="dirac_summary">Optimize audio quality</string>
-    <string name="dirac_headset_title">Choose headphone type</string>
+    <!-- Dirac settings -->
+    <!-- Label for feature switch [CHAR LIMIT=30] -->
+    <string name="switch_bar_on">On</string>
+
+    <!-- Label for feature switch [CHAR LIMIT=30] -->
+    <string name="switch_bar_off">Off</string>
+
+    <string name="sound_title">Dirac-Settings</string>
+    <string name="dirac_title">Dirac Sound Enhancer</string>
+    <string name="dirac_summary">Optimize Audio Quality</string>
+    <string name="dirac_headset_title">Choose Headphone Type</string>
     <string name="dirac_preset_title">Choose a preset</string>
 
     <string name="dirac_headset_default">Default</string>
@@ -53,4 +60,8 @@
     <string name="dirac_preset_country">Country</string>
     <string name="dirac_preset_dance">Dance</string>
     <string name="dirac_preset_metal">Metal</string>
+
+    <!-- Headers -->
+    <string name="diracheader">Dirac</string>
+
 </resources>

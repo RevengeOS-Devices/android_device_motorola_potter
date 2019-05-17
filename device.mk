@@ -309,7 +309,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.1-service-qti
+    android.hardware.power@1.2-service
 
 # Public Libraries
 PRODUCT_COPY_FILES += \
@@ -338,8 +338,8 @@ PRODUCT_COPY_FILES += \
 
 # Powerhint configuration file
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/powerhint.xml:system/etc/powerhint.xml \
-    $(LOCAL_PATH)/configs/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml
+     $(LOCAL_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
+     $(LOCAL_PATH)/configs/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml
 
 # Releasetools script
 PRODUCT_COPY_FILES += \

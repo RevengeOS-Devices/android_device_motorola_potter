@@ -11,19 +11,6 @@
      "target_path" : "vendor/motorola/potter"
      
   },
-  {
-
-    "repository"   : "packages_resources_MotoActions",
-    "target_path"  : "packages/resources/MotoActions"
- 
-},
-
-  {
-    "remote"       : "omnirom",
-    "repository"   : "android_hardware_qcom_wlan-caf",
-    "target_path"  : "hardware/qcom/wlan-caf",
-    "revision"     : "android-9.0"
-},
 { 
     "remote"       : "github",
     "repository"   : "VRanger/dragontc",

@@ -1,0 +1,20 @@
+<!--
+    Copyright (c) google/material-design-icons
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+        http://www.apache.org/licenses/LICENSE-2.0
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="?android:attr/colorAccent" android:state_activated="true" >
+    <path android:fillColor="#000" android:pathData="M 11.9994,0.998068C 16.9704,0.998068 20.9994,5.02706 20.9994,9.99807L 20.9994,16.9981C 20.9994,18.6551 19.6564,19.9981 17.9994,19.9981L 14.9994,19.9981L 14.9994,11.9981L 18.9994,11.9981L 18.9994,9.99807C 18.9994,6.13206 15.8654,2.99807 11.9994,2.99807C 8.13339,2.99807 4.9994,6.13206 4.9994,9.99807L 4.9994,11.9981L 8.9994,11.9981L 8.9994,19.9981L 5.9994,19.9981C 4.3424,19.9981 2.9994,18.6551 2.9994,16.9981L 2.9994,9.99807C 2.9994,5.02706 7.02841,0.998068 11.9994,0.998068 Z M 15,24L 15,22L 17,22L 17,24L 15,24 Z M 11,24L 11,22L 13,22L 13,24L 11,24 Z M 7,24L 7,22L 9,22L 9,24L 7,24 Z " />
+</vector>

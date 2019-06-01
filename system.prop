@@ -174,7 +174,7 @@ persist.dbg.ims_volte_enable=1
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
-
+persist.vendor.ims.dropset_feature=0
 persist.vendor.radio.force_on_dc=true
 persist.vendor.radio.data_ltd_sys_ind=1
 persist.vendor.radio.ignore_dom_time=10
@@ -282,7 +282,7 @@ ro.vendor.use_data_netmgrd=true
 persist.data.qmi.adb_logmask=0
 persist.vendor.radio.snapshot_timer=22
 persist.vendor.radio.snapshot_enabled=1
-persist.radio.calls.on.ims=true
+persist.radio.calls.on.ims=1
 persist.radio.domain.ps=0
 persist.rmnet.mux=enabled
 persist.radio.REVERSE_QMI=0
@@ -295,6 +295,7 @@ persist.sys.cnd.iwlan=1
 persist.cne.logging.qxdm=3974
 persist.vendor.ims.disableDebugLogs=1
 persist.vendor.ims.disableQXDMLogs=1
+persist.rcs.supported=0
 DEVICE_PROVISIONED=1
 
 # Debug Options

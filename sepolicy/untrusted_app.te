@@ -8,3 +8,4 @@ allow untrusted_app fsg_file:dir read;
 
 allow untrusted_app proc_asound:dir search;
 allow untrusted_app proc_qtaguid_stat:file read;
+dontaudit untrusted_app sysfs_zram:dir search;

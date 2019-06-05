@@ -61,4 +61,4 @@ type sysfs_power_management, sysfs_type, fs_type;
 type proc_touchpanel, fs_type;
 
 type sysfs_msm_subsys, sysfs_type, fs_type;
-
+type sysfs_msm_subsys_restart, sysfs_type, fs_type;

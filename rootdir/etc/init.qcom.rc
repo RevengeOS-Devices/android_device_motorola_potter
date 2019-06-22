@@ -587,6 +587,11 @@ service vendor.energy-awareness /system/vendor/bin/energy-awareness
     group system
     oneshot
 
+service vendor.msm_irqbalance /vendor/bin/msm_irqbalance -f /system/vendor/etc/msm_irqbalance.conf
+    class core
+    user root
+    group root
+
 service vendor.irsc_util /system/vendor/bin/irsc_util "/system/vendor/etc/sec_config"
     class core
     user root
